@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="pengolahannilai.FXML_inputMahasiswaController">
+   <children>
+      <Label layoutX="55.0" layoutY="59.0" text="NPM" />
+      <Label layoutX="55.0" layoutY="154.0" text="Nama Mahasiswa" />
+      <Label layoutX="55.0" layoutY="235.0" text="Prodi" />
+      <TextField fx:id="txtnpm" layoutX="248.0" layoutY="54.0" />
+      <TextField fx:id="txtnamamahasiswa" layoutX="248.0" layoutY="149.0" />
+      <TextField fx:id="txtprodi" layoutX="248.0" layoutY="230.0" />
+      <Button fx:id="btnsave" layoutX="57.0" layoutY="317.0" mnemonicParsing="false" onAction="#saveclick" text="Save" />
+      <Button fx:id="btnbatal" layoutX="171.0" layoutY="317.0" mnemonicParsing="false" onAction="#batalclick" text="Batal" />
+      <Button fx:id="btnkeluar" layoutX="288.0" layoutY="317.0" mnemonicParsing="false" onAction="#keluarclick" text="Keluar" />
+   </children>
+</AnchorPane>
